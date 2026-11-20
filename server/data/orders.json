@@ -1,0 +1,111 @@
+[
+  {
+    "id": "PIR-90412",
+    "customer": {
+      "fullName": "Aarav Sharma",
+      "phone": "+91 98765 43210",
+      "email": "aarav.sharma@example.com",
+      "address": "Flat 402, Sunshine Heights, MG Road",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560001"
+    },
+    "items": [
+      {
+        "id": "pirsapaaad-cream-80g",
+        "name": "PIRSAPAAAD Whitening Beauty Cream",
+        "size": "80g",
+        "price": 999,
+        "quantity": 1,
+        "image": "/images/cream-80g-studio.jpg"
+      },
+      {
+        "id": "pirsapaaad-perfume-6ml",
+        "name": "PIRSAPAAAD Roll-On Perfume (Desire Attar)",
+        "size": "6ml",
+        "price": 99,
+        "quantity": 2,
+        "image": "/images/perfume-studio.jpg"
+      }
+    ],
+    "subtotal": 1197,
+    "discount": 100,
+    "shipping": 0,
+    "total": 1097,
+    "paymentMethod": "UPI (Google Pay)",
+    "paymentStatus": "Paid",
+    "orderStatus": "Processing",
+    "trackingNumber": "DELHIVERY-920184712",
+    "createdAt": "2026-11-08T09:30:00.000Z"
+  },
+  {
+    "id": "PIR-89844",
+    "customer": {
+      "fullName": "Pooja Patel",
+      "phone": "+91 98234 56789",
+      "email": "pooja.patel@example.com",
+      "address": "B-12 Navrangpura",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380009"
+    },
+    "items": [
+      {
+        "id": "pirsapaaad-cream-80g",
+        "name": "PIRSAPAAAD Whitening Beauty Cream",
+        "size": "80g",
+        "price": 999,
+        "quantity": 2,
+        "image": "/images/cream-80g-studio.jpg"
+      },
+      {
+        "id": "pirsapaaad-lip-balm",
+        "name": "PIRSAPAAAD Nourishing Lip Balm",
+        "size": "10g",
+        "price": 249,
+        "quantity": 1,
+        "image": "/images/lipbalm-studio.jpg"
+      }
+    ],
+    "subtotal": 2247,
+    "discount": 225,
+    "shipping": 0,
+    "total": 2022,
+    "paymentMethod": "Cash on Delivery",
+    "paymentStatus": "Pending",
+    "orderStatus": "Shipped",
+    "trackingNumber": "BLUEDART-88392019",
+    "createdAt": "2026-11-07T14:15:00.000Z"
+  },
+  {
+    "id": "PIR-87612",
+    "customer": {
+      "fullName": "Vikram Singh",
+      "phone": "+91 97112 34567",
+      "email": "vikram.singh@example.com",
+      "address": "House 18, Sector 21",
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "pincode": "160022"
+    },
+    "items": [
+      {
+        "id": "pirsapaaad-cream-35g",
+        "name": "PIRSAPAAAD Whitening Beauty Cream (Starter Pack)",
+        "size": "35g",
+        "price": 499,
+        "quantity": 1,
+        "image": "/images/product-cream-35g-authentic.png"
+      }
+    ],
+    "subtotal": 499,
+    "discount": 0,
+    "shipping": 0,
+    "total": 499,
+    "paymentMethod": "UPI (PhonePe)",
+    "paymentStatus": "Paid",
+    "orderStatus": "Delivered",
+    "trackingNumber": "DTDC-48291039",
+    "createdAt": "2026-11-05T11:20:00.000Z"
+  }
+]
