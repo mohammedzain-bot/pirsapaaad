@@ -248,13 +248,13 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({ onCheckout }) => {
                 }}
                 className="w-full bg-brand-yellow hover:bg-brand-yellow-dark text-black font-extrabold py-3.5 px-4 rounded-xl transition-all shadow-glow-yellow flex items-center justify-center space-x-2 group"
               >
-                <span>Proceed to Checkout</span>
+                <span>Proceed to WhatsApp Checkout</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
 
               <div className="flex items-center justify-center space-x-1.5 text-[11px] text-gray-400 pt-1">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-                <span>Safe & Secure UPI, Cards & Cash on Delivery</span>
+                <span>Instant WhatsApp Order Confirmation • 100% Authentic</span>
               </div>
             </div>
           )}

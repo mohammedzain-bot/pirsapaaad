@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Star, ShoppingBag, Eye, Zap, CheckCircle2 } from 'lucide-react';
+import { Star, ShoppingBag, Eye, Zap, CheckCircle2, Phone } from 'lucide-react';
 import { Product } from '../types';
 import { useCart } from '../context/CartContext';
 
@@ -139,13 +139,14 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onOpenDetail,
               )}
             </button>
 
-            {/* Buy Now */}
+            {/* WhatsApp Quick Order */}
             <button
               onClick={handleBuyNow}
-              className="w-full bg-brand-yellow hover:bg-brand-yellow-dark text-black py-2 px-2 rounded-xl text-xs font-extrabold transition-all flex items-center justify-center space-x-1 shadow-sm hover:shadow-md"
+              className="w-full bg-emerald-500 hover:bg-emerald-600 text-black py-2 px-1.5 rounded-xl text-xs font-black transition-all flex items-center justify-center space-x-1 shadow-sm hover:shadow-md"
+              title="Order on WhatsApp"
             >
-              <Zap className="w-3.5 h-3.5 fill-black" />
-              <span>Buy Now</span>
+              <Phone className="w-3.5 h-3.5 fill-black" />
+              <span>WhatsApp</span>
             </button>
           </div>
         </div>

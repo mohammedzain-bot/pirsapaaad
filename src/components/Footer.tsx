@@ -37,11 +37,11 @@ export const Footer: React.FC<FooterProps> = ({ setCurrentTab }) => {
           </div>
 
           <div className="flex flex-col items-center p-4 rounded-xl bg-brand-charcoal/40 border border-brand-gray/30">
-            <div className="w-12 h-12 rounded-full bg-brand-yellow/10 border border-brand-yellow/30 flex items-center justify-center text-brand-yellow mb-3">
-              <RefreshCw className="w-6 h-6" />
+            <div className="w-12 h-12 rounded-full bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 mb-3">
+              <Phone className="w-6 h-6" />
             </div>
-            <h4 className="font-bold text-white text-sm">COD Available</h4>
-            <p className="text-xs text-gray-400 mt-1">UPI, Credit/Debit Cards & Cash on Delivery</p>
+            <h4 className="font-bold text-white text-sm">WhatsApp Ordering</h4>
+            <p className="text-xs text-gray-400 mt-1">Direct instant orders via WhatsApp: 7034044664</p>
           </div>
         </div>
       </div>
@@ -118,9 +118,14 @@ export const Footer: React.FC<FooterProps> = ({ setCurrentTab }) => {
           <h5 className="font-bold text-sm text-brand-yellow uppercase tracking-wider mb-4">Customer Care</h5>
           <ul className="space-y-2 text-xs">
             <li>
-              <button onClick={() => setCurrentTab('track')} className="hover:text-brand-yellow transition-colors">
-                Track Your Order
-              </button>
+              <a
+                href="https://wa.me/917034044664?text=Hi%20PIRSAPAAAD%20Team%2C%20I%20have%20an%20inquiry"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-brand-yellow transition-colors"
+              >
+                WhatsApp Helpline
+              </a>
             </li>
             <li>
               <button onClick={() => setCurrentTab('shipping')} className="hover:text-brand-yellow transition-colors">

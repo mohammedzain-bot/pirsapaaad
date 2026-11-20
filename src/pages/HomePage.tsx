@@ -27,20 +27,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         {/* Ambient Glows */}
         <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[600px] h-[350px] bg-brand-yellow/15 blur-[140px] pointer-events-none rounded-full" />
 
-        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 relative z-10 space-y-6">
-          {/* Top Trust Header */}
-          <div className="text-center space-y-2 max-w-2xl mx-auto">
-            <div className="inline-flex items-center space-x-2 bg-brand-yellow/15 border border-brand-yellow/50 rounded-full px-4 py-1.5 shadow-glow-sm">
-              <span className="flex h-2 w-2 rounded-full bg-brand-yellow animate-ping" />
-              <span className="text-xs sm:text-sm font-black text-brand-yellow uppercase tracking-wider">
-                Official PIRSAPAAAD Brand Store • Wholesale & Retail
-              </span>
-            </div>
-            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">
-              Your Beauty. <span className="text-brand-yellow">Your Confidence.</span> Your Identity.
-            </h1>
-          </div>
-
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 relative z-10 space-y-4">
           {/* THE HERO IMAGE BOX (Fully Mobile-Responsive) */}
           <div className="relative max-w-4xl mx-auto">
             {/* Box frame with subtle yellow/gold edge glow */}

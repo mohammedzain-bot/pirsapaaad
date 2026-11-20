@@ -18,7 +18,6 @@ export const Header: React.FC<HeaderProps> = ({ currentTab, setCurrentTab }) => 
     { label: 'Shop All', tab: 'shop' },
     { label: 'Whitening Cream', tab: 'shop-cream' },
     { label: '7-Day Challenge', tab: 'challenge' },
-    { label: 'Track Order', tab: 'track' },
     { label: 'Admin', tab: 'admin' },
   ];
 

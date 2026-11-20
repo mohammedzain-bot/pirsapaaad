@@ -290,28 +290,19 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                 className="w-full bg-brand-charcoal hover:bg-brand-gray text-white border-2 border-brand-yellow font-extrabold py-3.5 px-6 rounded-xl transition-all flex items-center justify-center space-x-2 shadow-md"
               >
                 <ShoppingBag className="w-4 h-4 text-brand-yellow" />
-                <span>Add to Cart</span>
+                <span>Add to Bag</span>
               </button>
 
-              <button
-                onClick={handleBuyNow}
-                className="w-full bg-brand-yellow hover:bg-brand-yellow-dark text-black font-black py-3.5 px-6 rounded-xl transition-all shadow-glow-yellow flex items-center justify-center space-x-2"
+              <a
+                href={`https://wa.me/917034044664?text=${whatsappMessage}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-emerald-500 hover:bg-emerald-600 text-black font-black py-3.5 px-6 rounded-xl transition-all shadow-lg flex items-center justify-center space-x-2"
               >
-                <Zap className="w-4 h-4 fill-black" />
-                <span>Buy Now (₹{product.price * quantity})</span>
-              </button>
+                <Phone className="w-4 h-4 fill-black" />
+                <span>Order on WhatsApp (₹{product.price * quantity})</span>
+              </a>
             </div>
-
-            {/* WhatsApp Direct Order Button */}
-            <a
-              href={`https://wa.me/917034044664?text=${whatsappMessage}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-400 border border-emerald-500/40 font-bold py-3 px-4 rounded-xl transition-all flex items-center justify-center space-x-2 text-xs sm:text-sm"
-            >
-              <Phone className="w-4 h-4" />
-              <span>Order Instantly on WhatsApp</span>
-            </a>
           </div>
 
           {/* Key Product Highlights Bullet Points */}

@@ -54,26 +54,15 @@ export const MobileNav: React.FC<MobileNavProps> = ({ currentTab, setCurrentTab 
           )}
         </button>
 
-        {/* Track Order */}
-        <button
-          onClick={() => handleNav('track')}
-          className={`flex flex-col items-center py-1 px-2 text-xs font-semibold transition-all ${
-            currentTab === 'track' ? 'text-brand-yellow scale-105' : 'text-gray-400 hover:text-white'
-          }`}
-        >
-          <Truck className="w-5 h-5 mb-0.5" />
-          <span>Track</span>
-        </button>
-
         {/* WhatsApp Quick Order */}
         <a
           href="https://wa.me/917034044664?text=Hi%20PIRSAPAAAD%20Team%2C%20I%20want%20to%20order%20products"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col items-center py-1 px-2 text-xs font-semibold text-emerald-400 hover:text-emerald-300 transition-all"
+          className="flex flex-col items-center py-1 px-3 text-xs font-semibold text-emerald-400 hover:text-emerald-300 transition-all"
         >
           <MessageCircle className="w-5 h-5 mb-0.5 fill-emerald-500/20" />
-          <span>WhatsApp</span>
+          <span>WhatsApp Order</span>
         </a>
       </div>
     </div>

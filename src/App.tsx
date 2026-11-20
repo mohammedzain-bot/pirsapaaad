@@ -10,7 +10,6 @@ import { ShopPage } from './pages/ShopPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
 import { CheckoutPage } from './pages/CheckoutPage';
 import { OrderConfirmationPage } from './pages/OrderConfirmationPage';
-import { TrackOrderPage } from './pages/TrackOrderPage';
 import { AdminPage } from './pages/AdminPage';
 import { ChallengePage } from './pages/ChallengePage';
 import { Product, Order } from './types';
@@ -335,8 +334,6 @@ const MainContent: React.FC = () => {
             onContinueShopping={() => setCurrentTab('home')}
           />
         )}
-
-        {currentTab === 'track' && <TrackOrderPage />}
 
         {currentTab === 'admin' && <AdminPage />}
       </main>
